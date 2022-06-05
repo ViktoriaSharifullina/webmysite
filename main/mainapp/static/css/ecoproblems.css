@@ -1,0 +1,218 @@
+p {
+    margin-bottom: -15px;
+}
+ul.menu > form > button {
+    background-color: #32CD32;
+    height: 30px;
+    width: 150px;
+    margin-left: 31cm;
+    margin-top: -45px;
+    font-size: 100%;
+    position: relative;
+    color: #ffffff;
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(10, 207, 75, 0.5); /* Параметры тени */
+}
+h1 {
+    margin-bottom: 0px;
+}
+
+iframe{
+    margin-left: 20%;
+    margin-top: 2cm;
+}
+
+.sign {
+    margin-left: 40px;
+    float: left; /* Выравнивание по левому краю */
+    padding: 7px; /* Поля внутри блока */
+}
+
+.sign figcaption {
+    margin-top: 25px;
+    font-size: medium;
+    width: 400px;
+    color:#808080;
+}
+
+main{
+    width: 98vw;
+    height: 80vh;
+    display: block;
+}
+
+div.head1{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 2cm;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 150%;
+    margin-bottom: 1rem;
+}
+
+div.data {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: -30px;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+}
+
+h1{
+    margin-bottom: -10px;
+}
+
+div.text {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.head2{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 1cm;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 125%;
+    margin-bottom: 1rem;
+}
+
+div.mainproblems {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.after_sign {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.population_density {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.text2 {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+.sign2 {
+    margin-left: 40%;
+    padding: 7px; /* Поля внутри блока */
+}
+   
+.sign2 figcaption {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: medium;
+    width: 600px;
+    color:#808080;
+}
+
+div.after_sign2 {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.load {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.text3 {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+iframe{
+    margin-left: 30%;
+    margin-top: 1cm;
+}
+
+div.after_video {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.cost {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+div.text4 {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+.sign3 {
+    float: left;
+    padding: 7px; /* Поля внутри блока */
+}
+
+.sign3 figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: medium;
+    width: 700px;
+    color:#808080;
+    float: left;
+}
+
+div.after_sign3 {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+#factors li{
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: disc;
+    line-height:40px;
+    float:none;
+    border-bottom: none;
+}
+
+
+
+
+

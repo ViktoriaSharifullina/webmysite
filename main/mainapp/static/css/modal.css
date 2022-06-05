@@ -1,0 +1,281 @@
+main{
+    width: 100vw;
+    height: 80vh;
+    display: block;
+}
+
+body{
+    margin: 0;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    background:#ffffff; /*добавляем фон всему меню*/
+    height: 60px; /*задаем высоту*/
+}
+
+a {
+    margin: 0;
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#ffffff; /*добавляем фон к пункту меню*/
+    color:#808080; /*меняем цвет ссылок*/
+    padding:0px 30px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:60px; /*ровняем меню по вертикали*/
+    display: block;
+}
+
+ul li{
+    transition: 0.25s;
+    border-bottom: solid 2px rgb(255, 255, 255);
+    border-collapse: collapse
+}
+
+ul.menu li{
+    margin-right: 0px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+ul.menu > form{
+    height: 60px;
+}
+
+
+ul.menu > form > button:hover {
+    background-color: #51b151;
+    box-shadow: 0 0 20px rgba(10, 207, 76, 0.356);
+    transition: 0.25s;
+
+}
+
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    position:relative; /*задаем позицию для позиционирования*/
+}
+
+a:hover {
+    color:#000000;/*добавляем эффект при наведении*/
+
+}
+
+ul li:hover{
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+
+/*Стили для скрытого выпадающего меню*/
+li > ul {
+    font-size: small;
+    position:absolute;
+    top:60px;
+    display:none;
+}
+
+/*Делаем скрытую часть видимой*/
+li:hover > ul {
+    display:block;
+}
+
+li:hover > ul > li {
+    float:none; /*Убираем горизонтальное позиционирование*/
+}
+
+
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7); /* цвет фона */
+    z-index: 100000;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* при отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 400px;
+      margin: 70px auto; /* для отображения модального окна по центру */
+  }
+}
+/* свойства для блока, содержащего контент модального окна */
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    height: 450px;
+}
+
+/*Медиа-функции задают технические характеристики устройства, на котором отображается документ. */
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+
+
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.modal-title {
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.85rem;
+    font-weight: 400;
+    margin-left: 35px;
+}
+
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: -25px;
+    color: rgb(136, 135, 135);
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+
+.modal-body input{
+    margin-bottom: 40px;
+    height: 45px;
+    border-radius: .2rem;
+    font-size: 17px;
+    color: #808080;
+    padding-left: 20px;
+    background-color: #e6e6e6;
+    border: none;
+    width: 280px
+
+}
+
+.modal-body input:focus, input:hover {
+    outline: 0;
+    background-color: #cecece;
+}
+
+.modal-body > form > button{
+    margin-left: 200px;
+    margin-top: 0px;
+    background-color: #32CD32;
+    color: #ffffff;
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    font-size: 100%;
+    box-shadow: 0 0 10px rgba(10, 207, 75, 0.5); /* Параметры тени */
+
+}
+
+.modal-body > form > button:hover {
+    background-color: #51b151;
+    box-shadow: 0 0 20px rgba(10, 207, 76, 0.356);
+    transition: 0.25s;
+
+}
+
+.cta-btn{
+    vertical-align: middle;
+    width: 4%;
+    margin-top: 17px;
+    margin-left: 1050px;
+}
+
+.select{
+    margin-top: 0px;
+    height: 30px;
+    width: 60px;
+    background-color: #32CD32;
+    color: #ffffff;
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 5px;
+    border: none;
+    font-size: 100%;
+    box-shadow: 0 0 10px rgba(10, 207, 75, 0.5); /* Параметры тени */
+}

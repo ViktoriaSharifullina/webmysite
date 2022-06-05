@@ -1,0 +1,51 @@
+
+ul {
+  display:block;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  /*margin-top:25px; /*делаем отступ сверху*/
+  background:#ffffff; /*добавляем фон всему меню*/
+  height: 50px; /*задаем высоту*/
+}
+.menu li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+.menu a {
+  display:block;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#ffffff; /*добавляем фон к пункту меню*/
+  color:#696969; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  
+}
+
+.menu li:hover > ul { opacity: 1; }
+
+.menu a:hover {
+  color: #000000;/*добавляем эффект при наведении*/
+}
+
+.menu ul ul li:hover ul {
+  display: block;
+}
+
+.menu ul li ul {
+  display: none; /* Прячем пункты выпадающего блока меню */
+  position:absolute;
+  background: rgb(255, 255, 255); /* Задаем фон выпадающего блока меню */
+  }
+  
+  .menu ul li:hover ul {
+  display:block; /* Отображаем подменю при наведении мыши */
+  }
+  
+  .menu ul li ul li {
+  display:block; /* Выстраиваем по вертикали пункты выпадающего меню */
+  }
+
+
+

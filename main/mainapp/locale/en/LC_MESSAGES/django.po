@@ -1,0 +1,531 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-01 14:45+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\mainapp\templates\ecoproblems.html:14
+msgid "Экология Европы"
+msgstr "Energy and Ecology of Europe"
+
+#: .\mainapp\templates\ecoproblems.html:19
+msgid ""
+"Экология Европы оставляет желать лучшего. В первую очередь проблемы связаны "
+"с рядом факторов, губительно влияющих на окружающую среду. Хотя на данный "
+"момент охране природы уделяется колоссальное внимание, восстановить "
+"утраченное не всегда представляется возможным."
+msgstr ""
+"The ecology of Europe leaves much to be desired. First of all , the problems "
+"are related with a number of factors that have a detrimental effect on the "
+"environment. Although at the moment at the moment, enormous attention is "
+"paid to the protection of nature, to restore the lost is not always possible."
+
+#: .\mainapp\templates\ecoproblems.html:23
+msgid "Основные проблемы"
+msgstr "Ecoproblems"
+
+#: .\mainapp\templates\ecoproblems.html:27
+msgid ""
+"Европейский континент уже давно перестал считаться экологически чистым. В "
+"регионе произошла ранняя индустриализация и развитие промышленности, сделав "
+"его неблагоприятным."
+msgstr ""
+"The European continent has long ceased to be considered environmentally "
+"friendly. In early industrialization and industrial development took place "
+"in the region, making his unfavorable."
+
+#: .\mainapp\templates\ecoproblems.html:28
+msgid ""
+"Здесь наблюдается наиболее широкая гамма проблем. Тем более что практически "
+"все экосистемы частично разрушены или претерпели существенные изменения от "
+"изначальных характеристик."
+msgstr ""
+"There is the widest range of problems here. Especially since practically all "
+"ecosystems are partially destroyed or have undergone significant changes "
+"from the original characteristics."
+
+#: .\mainapp\templates\ecoproblems.html:34
+msgid ""
+"Карта экологической эффективности в 2018 г. Это совокупный показатель, "
+"который отражает различные аспекты состояния окружающей природной среды и "
+"жизнеспособности её экологических систем, сохранение биологического "
+"разнообразия, противодействие изменению климата, состояние здоровья "
+"населения, практику экономической деятельности и степень её нагрузки на "
+"окружающую среду, а также эффективность государственной политики в области "
+"экологии."
+msgstr ""
+"Map of environmental efficiency in 2018 This is a cumulative indicator,which "
+"reflects various aspects of the state of the natural environment and the "
+"viability of its ecological systems, the preservation of biological "
+"diversity, countering climate change, health statusthe population, the "
+"practice of economic activity and the degree of its burden on the "
+"environment, as well as the effectiveness of state policy in the field of "
+"ecology."
+
+#: .\mainapp\templates\ecoproblems.html:39
+msgid ""
+"Осознание опасности происходящего произошло раньше, чем на других "
+"континентах. Это стало причиной первых серьёзных шагов, направленных на "
+"противостояние с разрушающими факторами."
+msgstr ""
+"Awareness of the danger of what is happening happened earlier than on others "
+"continents. This was the reason for the first serious steps aimed at "
+"confrontation with destructive factors."
+
+#: .\mainapp\templates\ecoproblems.html:43
+msgid "Плотность насления"
+msgstr "Population density"
+
+#: .\mainapp\templates\ecoproblems.html:46
+msgid ""
+"Зарубежная Европа считается одним из густонаселённых районов земного шара. "
+"При среднем показателе планеты в 55 человек на 1 км², здесь прослеживается "
+"совершенно иная ситуация: величина варьируется в диапазоне от 100 до 110 "
+"человек."
+msgstr ""
+"Foreign Europe is considered one of the most densely populated areas of the "
+"globe. With an average indicator of the planet of 55 people per 1 km2, it "
+"can be traced here the situation is completely different: the value varies "
+"in the range from 100 to 110 a man."
+
+#: .\mainapp\templates\ecoproblems.html:52
+msgid "Карта плотности населения Европы. Количество человек на 1 кв. км"
+msgstr "Map of the population density of Europe. Number of people per 1 sq. km"
+
+#: .\mainapp\templates\ecoproblems.html:57
+msgid ""
+"При этом распределение людей практически по всей площади континента "
+"отличается равномерностью. То есть незаселённых или малонаселённых мест "
+"практически нет."
+msgstr ""
+"At the same time, the distribution of people is almost the entire area of "
+"the continent it is characterized by uniformity. That is , uninhabited or "
+"sparsely populated places practically not."
+
+#: .\mainapp\templates\ecoproblems.html:58
+#, python-format
+msgid ""
+"Аналогичная ситуация касается и урбанизации. Проживающих в городской черте "
+"гораздо больше, чем в сельских поселениях. По региону средний показатель 73 "
+"%%, в Бельгии — 87 %%."
+msgstr ""
+"A similar situation applies to urbanization. Living in the city limits much "
+"more than in rural settlements. The regional average is 73 %%, in Belgium — "
+"87%%."
+
+#: .\mainapp\templates\ecoproblems.html:59
+msgid ""
+"В большей степени густозаселёнными государствами являются маленькие по "
+"площади, расположенные в центральной части континента: Монако, Ватикан, Сан-"
+"Марино. В странах, относящихся к северной территории Европы, меньше "
+"населения, что можно объяснить менее благоприятными климатическими условиями."
+msgstr ""
+"To a greater extent, densely populated states are small po squares located "
+"in the central part of the continent: Monaco, Vatican, San FranciscoMarino. "
+"In the countries belonging to the northern territory of Europe, less the "
+"population, which can be explained by less favorable climatic conditions."
+
+#: .\mainapp\templates\ecoproblems.html:62
+msgid "Хозяйственная нагрузка на территории"
+msgstr "Economic load on the territory"
+
+#: .\mainapp\templates\ecoproblems.html:65
+msgid ""
+"Здесь сконцентрировано более 40 государств, находящихся друг от друга на "
+"небольшом расстоянии. В каждом из них функционирует огромное количество "
+"промышленных предприятий, сельскохозяйственных угодий и дорог. В результате "
+"целостного земляного покрова практически не осталось, воздух засоряется."
+msgstr ""
+
+#: .\mainapp\templates\ecoproblems.html:66
+msgid ""
+"Это частично становится проблемой глобального экологического кризиса, "
+"постоянная нагрузка в той или иной степени снижает количество природных "
+"территорий Европы. Морские заливы и побережья забиваются отходами "
+"жизнедеятельности человека."
+msgstr ""
+"There are more than 40 states concentrated here, located on the a short "
+"distance. Each of them has a huge number of industrial enterprises, "
+"agricultural lands and roads. As a result there is practically no complete "
+"ground cover left, the air is clogged."
+
+#: .\mainapp\templates\ecoproblems.html:72
+msgid ""
+"Качество питьевой воды в удалённых регионах ещё проходит допустимые "
+"критерии. Прежде чем пускать на нужды населения воду в большинстве крупных "
+"европейских городов, приходится подвергать её тщательной очистке."
+msgstr ""
+"The quality of drinking water in remote regions is still passing acceptable "
+"criteria. Before using water for the needs of the population in most large "
+"European cities, it has to be thoroughly cleaned."
+
+#: .\mainapp\templates\ecoproblems.html:75
+msgid "Экологические издержки, необходимые для жизнеобеспечения человека"
+msgstr "Environmental costs necessary for human life support"
+
+#: .\mainapp\templates\ecoproblems.html:78
+msgid ""
+"В первую очередь это относится к сооружениям, преграждающим естественное "
+"орошение территорий. В этом случае происходит нарушение полноценного "
+"жизнеобеспечения целых регионов, которое приводит к вымиранию объектов флоры "
+"и фауны."
+msgstr ""
+"First of all, this applies to structures that block the natural irrigation "
+"of territories. In this case , there is a violation of the full - fledged "
+"life support of entire regions, which leads to the extinction of flora "
+"objects and fauna."
+
+#: .\mainapp\templates\ecoproblems.html:84
+msgid "Энергетика и Экология Европы"
+msgstr "Energy and Ecology of Europe"
+
+#: .\mainapp\templates\ecoproblems.html:88
+msgid "Здесь стоит отметить слудующие факторы:"
+msgstr "The following factors are worth noting here:"
+
+#: .\mainapp\templates\ecoproblems.html:90
+msgid ""
+"Строительство дополнительных водохранилищ, требующихся человеку для "
+"обеспечения водой. Сооружения полностью либо частично ведут к затоплению "
+"больших площадей, на которых ранее проживали животные и произрастали "
+"растения."
+msgstr ""
+"Construction of additional reservoirs required by a person for providing "
+"water. Structures completely or partially lead to flooding large areas where "
+"animals used to live and grow plants."
+
+#: .\mainapp\templates\ecoproblems.html:91
+msgid ""
+"Возведение ГЭС. Это приводит к глобальному изменению жизни на всём "
+"протяжении реки, от русла до истоков."
+msgstr ""
+"The construction of hydroelectric power plants. This leads to a global "
+"change in life at all the length of the river, from the riverbed to the "
+"sources."
+
+#: .\mainapp\templates\index.html:17
+msgid "2022 год: природа в"
+msgstr "2022: nature in"
+
+#: .\mainapp\templates\index.html:17
+msgid "аварийном режиме"
+msgstr "emergency mode"
+
+#: .\mainapp\templates\index.html:20
+msgid ""
+"По мере приближения нового года мир продолжает сталкиваться с рядом знакомых "
+"проблем: продолжающейся пандемией КОВИД-19 и лесными пожарами, затяжным "
+"кризисом из-за изменения климата, утраты биоразнообразия и нарастающего "
+"загрязнения. И все же 2022 год может стать историческим для окружающей "
+"среды: запланировано проведение международных мероприятий и конференций, "
+"которые, как мы надеемся, активизируют международное сотрудничество и общие "
+"действия."
+msgstr ""
+"As the new year approaches, the world continues to face a number of familiar "
+"challenges: the ongoing COVID-19 pandemic and wildfires, the lingering "
+"crisis due to climate change, loss of biodiversity, and increasing "
+"pollution. Still, 2022 could be a historic year for the environment of the "
+"environment: international events and conferences are planned, which will "
+"hopefully intensify international cooperation and common action."
+
+#: .\mainapp\templates\index.html:23
+msgid ""
+"Кроме того, в следующем году мы отметим два золотых юбилея. В 1972 году на "
+"исторической Конференции ООН по окружающей человека среде в Стокгольме мир "
+"надел на себя экологическую мантию. На этом совещании вопросы охраны "
+"окружающей среды были включены в список приоритетных задач правительств, "
+"гражданского общества, деловых кругов и руководящих органов с учетом "
+"неразрывной связи между планетой, благосостоянием человека и экономическим "
+"ростом. Сейчас, пятьдесят лет спустя, в Стокгольме в июне 2022 года в честь "
+"50-летия пройдет мероприятие, которое отметит это событие, вспомнив о "
+"полувековой глобальной экологической деятельности и обратив взгляд в будущее."
+msgstr ""
+"In addition, next year we will celebrate two golden anniversaries. In 1972, "
+"at the the historic UN Conference on the Human Environment in Stockholm, the "
+"world  put on the environmental mantle. At that meeting, the protection of "
+"the The environment was included in the list of priorities of governments, "
+"civil society, the business community and governing bodies, given thethe "
+"inextricable link between the planet, human well-being and economic growth. "
+"Now, fifty years later, in Stockholm in June 2022, the 50th anniversary "
+"event will be held to commemorate the event by remembering half-century of "
+"global environmental activity and looking to the future."
+
+#: .\mainapp\templates\index.html:27
+msgid ""
+"Результатом стокгольмской конференции стало создание Программы ООН по "
+"окружающей среде (ЮНЕП) – органа Организации Объединенных Наций, которому "
+"поручено следить за состоянием окружающей среды, информировать политические "
+"круги о ходе научных исследований и активизировать международную "
+"деятельность. С тех пор на протяжении 50 лет ЮНЕП использовала свои "
+"возможности, проводя совещания и тщательные научные исследования с целью "
+"координации мировых усилий для решения экологических проблем. В честь 50-й "
+"годовщины ЮНЕП в этом году запланировано множество мероприятий."
+msgstr ""
+"The Stockholm Conference resulted in the creation of the United Nations "
+"Programme on the The United Nations Environment Programme (UNEP), a United "
+"Nations body charged with charged with monitoring the state of the "
+"environment, informing policy circles on the progress of scientific research "
+"and to intensify international activities. Since then, for 50 years, UNEP "
+"has used its opportunities, holding meetings and thorough scientific studies "
+"to coordinate the world's efforts to solve environmental problems. To "
+"commemorate the 50th anniversary of UNEP has many activities planned for "
+"this year."
+
+#: .\mainapp\templates\index.html:30
+msgid ""
+"В 2022 году ЮНЕП приступит к осуществлению новой среднесрочной стратегии, "
+"включающей семь взаимосвязанных рабочих программ по таким вопросам, как "
+"борьба с изменением климата, химические вещества и загрязнение окружающей "
+"среды, природоохранная деятельность, научная политика, управление "
+"природопользованием, финансы, экономические и цифровые преобразования. "
+"Стратегия была согласована на пятой сессии Ассамблеи ООН по окружающей среде "
+"в 2021 году. Данная сессия (ЮНЕА 5.2) возобновит свою работу в феврале 2022 "
+"года. Обсуждаемая тема – «Усиление природоохранных мероприятий для "
+"достижения целей в области устойчивого развития» – подчеркивает ведущую роль "
+"природы в нашей жизни и в устойчивом социальном, экономическом и "
+"экологическом развитии."
+msgstr ""
+"In 2022, UNEP will launch a new medium-term strategy, consisting of seven "
+"interconnected work programs on issues such as combating climate change, "
+"chemicals and pollution climate change, environmental protection, science "
+"policy, environmental management, finance, environmental management, "
+"finance, economic and digital transformation. The strategy was agreed upon "
+"at the fifth session of the UN Environment Assembly in 2021. This session "
+"(UNEA 5.2) will resume in February 2022 The topic under discussion is "
+"Strengthening environmental actions to Achieving the Sustainable Development "
+"Goals emphasizes the leading role of nature in our lives and in sustainable "
+"social, economic and environmental development."
+
+#: .\mainapp\templates\index.html:34
+msgid ""
+"Фото: ЮНЕП | Рекламный щит по случаю Всемирного дня окружающей среды в 2021 "
+"году на Таймс сквере, Нью-Йорк"
+msgstr ""
+"Photo: UNEP | Billboard for World Environment Day 2021.the year in Times "
+"Square, New York."
+
+#: .\mainapp\templates\index.html:36
+msgid ""
+"Июнь будет напряженным месяцем в экологическом календаре. 5 июня мир "
+"объединится, чтобы отметить Всемирный день окружающей среды. Начиная с 1974 "
+"года это день ежегодно отмечается под руководством ЮНЕП, превратившись в "
+"огромную всемирную платформу для экологической пропаганды, в рамках которой "
+"миллионы людей защищают планету. В этом году мероприятие пройдет в Швеции "
+"под девизом «Только одна Земля» и с акцентом на устойчивое существование в "
+"гармонии с природой."
+msgstr ""
+"June will be a busy month in the environmental calendar. On June 5, the "
+"world will unite to celebrate World Environment Day. Since 1974 the day has "
+"been celebrated annually under the leadership of UNEP, becoming a huge "
+"worldwide platform for environmental advocacy in which millions of people "
+"protect the planet. This year's event will be held in Sweden under the "
+"slogan One Earth Only and with a focus on living sustainably in in harmony "
+"with nature."
+
+#: .\mainapp\templates\index.html:38
+msgid ""
+"Несмотря на то, что хронология экологических достижений служит "
+"доказательством важности многосторонних действий для достижения результатов, "
+"наука остается неопровержимой истиной. Неустойчивые модели потребления и "
+"производства подпитывают тройной планетарный кризис изменения климата, "
+"утраты природы и биоразнообразия, загрязнения и отходов. Генеральный "
+"секретарь ООН Антониу Гутерриш предупредил, что тройной планетарный кризис – "
+"это угроза номер один для существования человечества."
+msgstr ""
+"Despite the fact that the chronology of environmental achievements serves "
+"proof of the importance of multilateral action to achieve results,science "
+"remains an irrefutable truth. Unsustainable consumption patterns and "
+"manufacturing is fueling a triple planetary climate change crisis,loss of "
+"nature and biodiversity, pollution and waste. General UN Secretary Antonio "
+"Guterres warned that the triple planetary crisis – this is the number one "
+"threat to the existence of humanity."
+
+#: .\mainapp\templates\index.html:41
+msgid ""
+"В 2022 году несколько общемировых мероприятий и документов направлены на "
+"поощрение диалога и оказание влияния на политические решения в целях "
+"преодоления тройного кризиса. К их числу относятся всемирная стратегия "
+"сохранения биоразнообразия после 2020 года, которая будет принята в мае "
+"этого года на 15-ой конференции сторон (КС 15) и которая может предотвратить "
+"исчезновение более миллиона видов, а также Конференция ООН по вопросам "
+"мирового океана в июле, цель которой защита одной из самых важных экосистем "
+"планеты. С подробным списком соответствующих мероприятий вы можете "
+"ознакомиться на веб-сайте ООН."
+msgstr ""
+"In 2022, several global events and documents are aimed at encouraging "
+"dialogue and influencing policy decisions in order toovercoming the triple "
+"crisis. These include the global strategy biodiversity conservation after "
+"2020, which will be adopted in Maythis year at the 15th Conference of the "
+"Parties (COP 15) and which can prevent the disappearance of more than a "
+"million species, as well as the UN Conference on the world ocean in July, "
+"the purpose of which is to protect one of the most important "
+"ecosystemsplanets. With a detailed list of relevant events, you can see the "
+"UN website."
+
+#: .\mainapp\templates\index.html:45
+msgid ""
+"В прошлом году генеральный секретарь ООН напомнил миру, что «...мы находимся "
+"на перепутье, и нам предстоит сделать соответствующий выбор. Это может стать "
+"как разрушением, так и прорывом»."
+msgstr ""
+"Last year, the UN Secretary General reminded the world that...we are we are "
+"at a crossroads, and we have to make the appropriate choice. It can become "
+"both by destruction and by breakthrough."
+
+#: .\mainapp\templates\index.html:49
+msgid ""
+"Специалисты выражают надежду, что 2022 год станет годом прорывов в области "
+"окружающей среды."
+msgstr ""
+"Experts express the hope that 2022 will be the year of breakthroughs in the "
+"field of environment."
+
+#: .\mainapp\templates\index.html:54
+msgid "Введите Ваше имя:"
+msgstr "Enter your name:"
+
+#: .\mainapp\templates\index.html:58
+msgid "Контакт для обратной связи:"
+msgstr "Contact for feedback:"
+
+#: .\mainapp\templates\index.html:61
+msgid "Сообщение:"
+msgstr "Message:"
+
+#: .\mainapp\templates\index.html:64 .\mainapp\templates\post_detail.html:53
+msgid "Отправить"
+msgstr "Send"
+
+#: .\mainapp\templates\index.html:65
+msgid "* - обязательные поля."
+msgstr "* - required fields."
+
+#: .\mainapp\templates\layout.html:16
+msgid "Главная"
+msgstr "Main"
+
+#: .\mainapp\templates\layout.html:17
+msgid "Экопроблемы"
+msgstr "Ecoproblems"
+
+#: .\mainapp\templates\layout.html:18
+msgid "Фауна"
+msgstr "Fauna"
+
+#: .\mainapp\templates\layout.html:20
+msgid "Млекопитающие"
+msgstr "Mammals"
+
+#: .\mainapp\templates\layout.html:21
+msgid "Амфибии"
+msgstr "Amphibians"
+
+#: .\mainapp\templates\layout.html:22
+msgid "Птицы"
+msgstr "Birds"
+
+#: .\mainapp\templates\layout.html:25
+msgid "Флора"
+msgstr "Flora"
+
+#: .\mainapp\templates\layout.html:26
+msgid "Блог"
+msgstr "Blog"
+
+#: .\mainapp\templates\layout.html:50 .\mainapp\templates\layout.html:59
+msgid "Войти на сайт"
+msgstr "Sign in"
+
+#: .\mainapp\templates\layout.html:66
+msgid "Войти"
+msgstr "Log in"
+
+#: .\mainapp\templates\mammals.html:13
+msgid "Карликовая игрунка (Мармозетка)"
+msgstr "Dwarf igrunka (Marmoset)"
+
+#: .\mainapp\templates\mammals.html:16
+msgid ""
+"Карликовая игрунка (лат. Cebuella pygmaea_), или мармозетка, правотряд "
+"широконосые обезьяны, семейства игрунковых."
+msgstr ""
+"Dwarf igrunka (Latin Cebuella pygmaea_), or marmoset, the right order broad-"
+"nosed monkeys, the igrunkov family."
+
+#: .\mainapp\templates\mammals.html:20
+msgid "Описание"
+msgstr "Description"
+
+#: .\mainapp\templates\mammals.html:23
+msgid ""
+"Игрунка или мармозетка – это самый маленький примат на Земле. Размер "
+"взрослой особи не превышает 35 см, включая длинный хвост, служащий для "
+"обезьянки балансиром."
+msgstr ""
+"The Igrunka or marmoset is the smallest primate on Earth. Size an adult does "
+"not exceed 35 cm, including a long tail, which serves for monkey balancer."
+
+#: .\mainapp\templates\mammals.html:24
+msgid ""
+"В 2018 году используя данные молекулярно-генетической экспертизы, из этого "
+"вида были выделены несколько подвидов: восточная карликовая игрунка, которую "
+"всегда можно отличить по светлому низу, и западная карликовая игрунка – "
+"непосредственно мармозетка. Мармозетка распространена значительно дальше на "
+"западе, нежели восточный подвид, и основным барьером для них служат Амазонка "
+"и Мараньон западная обитает в северном направлении, а вот восточная на южных "
+"территориях."
+msgstr ""
+"In 2018, using the data of molecular genetic examination, from this several "
+"subspecies of the species have been identified: the eastern dwarf igrunka, "
+"which you can always tell by the light bottom, and the western dwarf igrunka–"
+"directly marmoset. Marmoset is spread much further on in the west, rather "
+"than the eastern subspecies, and the Amazon is the main barrier for them and "
+"the western Maranion lives in the northern direction, but the eastern one "
+"lives in the southern territories."
+
+#: .\mainapp\templates\mammals.html:28
+msgid ""
+"Красная книга МСОП поместила мармозетку в раздел вызывающие наименьшее "
+"опасение (2008 год), а в 2020 году оба эти вида уже помечены в качестве "
+"уязвимых. Угрозу этим крошечным приматам представляют сокращение площади их "
+"обитания и ухудшения условия существования вследствие деятельности людей."
+msgstr ""
+"The IUCN Red Book has placed marmoset in the section causing the least fear "
+"(2008), and in 2020 both of these species are already marked as vulnerable. "
+"The threat to these tiny primates is represented by a reduction in the area "
+"of their habitat and deterioration of living conditions due to human "
+"activity."
+
+#: .\mainapp\templates\post.html:17
+msgid "Посты:"
+msgstr "Posts: "
+
+#: .\mainapp\templates\post.html:25
+msgid "Читать"
+msgstr "Read"
+
+#: .\mainapp\templates\post_create_form.html:32
+msgid "Создать новость"
+msgstr "Create a news item"
+
+#: .\mainapp\templates\post_detail.html:45
+msgid "Ваш комментарий был добавлен."
+msgstr "Your comment has been added."
+
+#: .\mainapp\templates\post_detail.html:47
+msgid "Добавьте новый комментарий"
+msgstr "Add a new comment"

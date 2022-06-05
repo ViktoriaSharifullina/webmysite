@@ -1,0 +1,66 @@
+
+div.head{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 2cm;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130%;
+    margin-bottom: 1rem;
+}
+
+ul.menu > form > button {
+    background-color: #32CD32;
+    height: 30px;
+    width: 150px;
+    margin-left: 31cm;
+    margin-top: -45px;
+    font-size: 100%;
+    position: relative;
+    color: #ffffff;
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(10, 207, 75, 0.5); /* Параметры тени */
+}
+
+div.after_head {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+.after_head img{
+    float: left;
+    margin-right: 1cm;
+}
+
+div.head2{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 2cm;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130%;
+    margin-bottom: 1rem;
+}
+
+div.after_head2 {
+    margin-left: 50px; 
+    margin-right: 80px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+}
+
+.after_head2 img{
+    margin-top: 1cm;
+    margin-left: 60%;
+    float: right;
+    margin: 90px 0 7px 7px;
+}
+
+h2{
+    margin-top: -30px;
+    margin-bottom: -10px;
+}

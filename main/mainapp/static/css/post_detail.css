@@ -1,0 +1,76 @@
+main{
+    width: 98vw;
+    height: 80vh;
+    display: block;
+}
+.post-title{
+    margin-top:60px;
+    margin-left: 300px;
+}
+
+ul.menu > form > button {
+    background-color: #32CD32;
+    height: 30px;
+    width: 150px;
+    margin-left: 31cm;
+    margin-top: -45px;
+    font-size: 100%;
+    position: relative;
+    color: #ffffff;
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(10, 207, 75, 0.5); /* Параметры тени */
+}
+
+.post-body{
+    margin-left: 300px;
+    font-size: 150%;
+}
+
+.card-body>.card-text{
+padding: 5px;
+}
+
+.new_comment{
+margin-left: 300px;
+padding: 0px;
+z-index: 1;
+}
+
+
+ul.menu > form > button {
+    background-color: #32CD32;
+    height: 30px;
+    width: 150px;
+    margin-left: 31cm;
+    margin-top: -45px;
+    font-size: 100%;
+    position: relative;
+    color: #ffffff;
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(10, 207, 75, 0.5); /* Параметры тени */
+}
+
+.btn{
+    width: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    background-color: #32CD32;
+    color: #ffffff;
+    font-family: arial; /*меняем шрифт*/
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(10, 207, 75, 0.5); /* Параметры тени */
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #51b151;
+    box-shadow: 0 0 20px rgba(10, 207, 76, 0.356);
+    transition: 0.25s;
+}
+

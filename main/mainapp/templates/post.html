@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% load static i18n %}
+
+{% block style %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/post.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/modal.css'%}">
+{% endblock %}
+
+{% block content %}
+<div class="posttitle"><p>{% trans "Посты:" %}</p></div>
+
+            <div class="post" >
+                {% for post in posts %}
+                    <div class="card mb-4">
+                        <div class="card-header">{{post.date_pub}}</div>
+                        <h5 class="card-title">{{ post.title }}</h5>
+                        <p class="card-text">{{ post.body|truncatewords:15 }}</p>
+                        <a href="{{ post.get_absolute_url }}" class="btn">{% trans "Читать" %}</a>
+                    </div>
+                {% endfor %}
+
+            </div>
+{% endblock %}

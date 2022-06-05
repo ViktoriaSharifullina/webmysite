@@ -1,0 +1,81 @@
+{% load static i18n %}
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="{% static 'css/modal.css'%}">
+      <script  src="/static/js/jquery-3.2.1.min.js"></script>
+      <script src="/static/js/changelang.js" defer></script>
+      <script src="/static/js/storage.js" defer></script>
+      <script src="/static/js/script.js" defer></script>
+
+      {% block style %}
+        {% endblock %}
+
+  </head>
+  <body>
+      <ul class="menu">
+        <li><a href="{% url 'index'%}">{% trans "Главная" %}<br/></a></li>
+        <li><a href="{% url 'ecoproblems'%}">{% trans "Экопроблемы" %}</a></li>
+        <li><a href="#">{% trans "Фауна" %}</a>
+          <ul>
+            <li><a href="{% url 'mammals'%}">{% trans "Млекопитающие" %}</a></li>
+            <li><a href="#">{% trans "Амфибии" %}</a></li>
+            <li><a href="#">{% trans "Птицы" %}</a></li>
+          </ul>
+        </li>
+        <li><a href="#">{% trans "Флора" %}</a></li>
+        <li><a href="{% url 'post'%}">{% trans "Блог" %}</a></li>
+
+        <div class="cta-btn">
+            <form id="form_id" action="{% url 'set_language' %}" method="post">
+                {% csrf_token %}
+                 <input id="redirect_to" name="next" type="hidden" value="{{ redirect_to }}">
+                 <select class="select" id="lang" name="language">
+                     <optgroup>
+                         {% get_current_language as LANGUAGE_CODE %}
+                         {% get_available_languages as LANGUAGES %}
+                         {% get_language_info_list for LANGUAGES as languages %}
+                         {% for language in languages %}
+                             <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                               {{ language.code }}
+                             </option>
+                         {% endfor %}
+                     </optgroup>
+                 </select>
+
+            </form>
+        </div>
+
+        <form action="#openModal" id="FormButton">
+          <button>
+            {% trans "Войти на сайт" %}
+          </button>
+        </form>
+      </ul>
+
+      <div id="openModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">{% trans "Войти на сайт" %}</h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+                <form>
+                <p><input type="email" id="mail" name="mail" placeholder="E-mail" required></p>
+                <p><input type="password" id="password" name="password" placeholder="Пароль" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required></p>
+                <button type="submit" name="btn">{% trans "Войти" %}</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+  </body>
+</html>
